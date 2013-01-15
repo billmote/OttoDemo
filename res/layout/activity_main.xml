@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:gravity="center" >
+
+        <fragment
+            android:id="@+id/adjust_quantity_fragment"
+            android:name="com.cadg.androidfu.otto.AdjustQuantityFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_adjust_qty" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50" >
+
+        <fragment
+            android:id="@+id/display_quantity_fragment"
+            android:name="com.cadg.androidfu.otto.TotalFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:layout="@layout/fragment_display_qty" />
+
+    </LinearLayout>
+
+</LinearLayout>

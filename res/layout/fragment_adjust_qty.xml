@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rockfish_iconic_brand_symbol_rgb"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="@string/submitButtonHint"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/statelist_quantity_submit_button"
+        android:enabled="false"
+        android:text="@string/submitButtonText" />
+
+</LinearLayout>

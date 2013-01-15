@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors by use description -->
+    <color name="quantity_display_background">@color/our_blue</color>
+    <color name="quantity_entry_background">@color/our_grey</color>
+    <color name="submit_button_background">@color/our_purple</color>
+
+    <!-- Colors by name -->
+    <color name="our_blue">#E21836</color>
+    <color name="our_grey">#DADCDC</color>
+    <color name="our_purple">#485865</color>
+</resources>

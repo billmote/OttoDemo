@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CADG Otto Presentation</string>
+    <string name="submitButtonText">Submit</string>
+    <string name="submitButtonHint">Qty to Add</string>
+    <string name="menu_settings">Reset Value</string>
+    <string name="quantityDefaultValue">0</string>
+
+</resources>
